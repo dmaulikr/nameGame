@@ -264,7 +264,7 @@ class GameScene_01: SKScene {
                     self.addChild(aFireworkBoom)
                     
                     run(SKAction.sequence([
-                        SKAction.wait(forDuration: 0.4),
+                        SKAction.wait(forDuration: 0.8),
                         SKAction.run(startClapping)
                         ])
                     )
